@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    background-color: rgb(175, 192, 209);
 }
 
 .site-title {
@@ -44,4 +45,13 @@ text-decoration: none;
 }
 .nav li.active {
     background-color: teal;
+}
+#id {
+    display: flex;
+    color: white;
+    justify-content: ;
+}
+.home, .name, .description{
+    display: flex;
+    color: white;
 }

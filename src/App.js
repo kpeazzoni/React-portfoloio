@@ -1,20 +1,18 @@
-import Navbar from "./components/Navbar";
-// import Home from "./components/Home";
-// import About from "./components/About";
-// import Skills from "./components/Skills";
-// import Work from "./components/Work";
-// import Contact from "./components/Contact";
+import './App.css';
+import Navigation from './screens/navigationBar/NavigationBar'
+// import ParticleAnimation from 'react-particle-animation'
+// import Header from './screens/header/Header';
+// import AboutMe from './screens/aboutMe/AboutMe';
+// import Technologies from './screens/technologies/Technologies';
+// import Portfolio from './screens/portfolio/Portfolio';
+// import ContactMe from './screens/contactMe/ContactMe';
 
 
 function App() {
   return (
     <div>
-      <Navbar />
-      {/* <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact /> */}
+      <Navigation />
+
     </div>
   );
 }
